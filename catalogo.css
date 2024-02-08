@@ -1,14 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
 
 .center{
-    width: 60vw;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .center h1,.center h2{
     font-size: 16px;
@@ -33,7 +30,7 @@
     border: none;
     border-radius: 10px;
     transition: 0.3s;
-
+cursor: pointer;
 }
 
 .produto a{
@@ -72,3 +69,27 @@ cursor: pointer;
 .produto:hover h2{
     display: none;
 }
+
+#titulo{
+    font-weight: lighter;
+    font-size: 1.6rem;
+}
+
+#preco{
+    
+    font-weight: 500;
+    font-size: 1rem;
+    margin: 5% auto;
+}
+#preco::before{
+    content: 'R$   ';
+}
+
+#cartao{
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+
+
