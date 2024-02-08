@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+/* Typical Device Breakpoints
+
+Mobile: até 600px.
+Tablet: de 600 até 768px
+Desktop: de 992px até 1200px
+Telas Grandes: 1200px a cima 
+
+*/
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    /*Tablet*/
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 2em;
+
+        font-weight: bolder;
+        font-family: 'Bad Script', Courier, monospace;
+        color: rgb(218, 165, 32);
+
+    }
+
+    #frase {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.8em;
+
+        font-weight: normal;
+        font-family: 'Red Hat Display' Arial, Helvetica, sans-serif;
+        color: rgb(218, 165, 32);
+    }
+
+    ul>li {
+        display: inline-block;
+        width: 110px;
+        font-size: 0.9em;
+    }
+
+    main>a>img {
+        display: none;
+        margin: auto;
+        width: 92%;
+
+        border-radius: 2px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+    }
+
+    main>a#destaque2>img {
+        display: block;
+        margin-top: 5%;
+    }
+
+    footer>p {
+        font-size: 0.8em;
+        text-align: center;
+        margin-top: 15%;
+        padding: 15px;
+
+        color: rgb(0, 0, 0);
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    /*Desktop*/
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 2em;
+
+        color: rgb(218, 165, 32);
+        font-weight: bolder;
+        font-family: 'Bad Script', Courier, monospace;
+
+    }
+
+    #frase {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.8em;
+
+        font-weight: normal;
+        font-family: 'Red Hat Display' Arial, Helvetica, sans-serif;
+        color: rgb(218, 165, 32);
+    }
+
+    ul>li {
+        display: inline-block;
+        width: 110px;
+        font-size: 0.9em;
+    }
+
+    main>a>img {
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+        width: 92%;
+
+        border-radius: 2px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+    }
+
+    main>a#destaque2>img {
+        display: none;
+    }
+
+    footer>p {
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 9%;
+        padding: 15px;
+        
+        color: rgb(0, 0, 0);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    /*Telas Grandes*/
+
+    h1 {
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        font-size: 2em;
+
+        color: rgb(218, 165, 32);
+        font-weight: bolder;
+        font-family: 'Bad Script', Courier, monospace;
+
+    }
+
+    #frase {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 0.8em;
+
+        font-weight: normal;
+        font-family: 'Red Hat Display' Arial, Helvetica, sans-serif;
+        color: rgb(218, 165, 32);
+    }
+
+    ul>li {
+        display: inline-block;
+        width: 110px;
+        font-size: 0.9em;
+    }
+
+    main>a>img {
+        display: block;
+        margin: auto;
+        margin-top: 3%;
+        width: 92%;
+
+        border-radius: 2px;
+        box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.252);
+    }
+
+    main>a#destaque2>img {
+        display: none;
+    }
+
+    footer>p {
+        font-size: 0.9em;
+        text-align: center;
+        margin-top: 9%;
+        padding: 15px;
+        
+        color: rgb(0, 0, 0);
+    }
+
+}
